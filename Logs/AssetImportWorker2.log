@@ -1,0 +1,855 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.25f1 (530ae0ba3889) revision 5442272'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit ProfessionalWorkstation' Language: 'es' Physical Memory: 31907 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Anhujuju/Plataformer
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+54265
+Successfully changed project path to: C:/Users/Anhujuju/Plataformer
+C:/Users/Anhujuju/Plataformer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11284] Host "[IP] 172.18.128.1 [Port] 0 [Flags] 2 [Guid] 1425155130 [EditorId] 1425155130 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3BAPAF0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11284] Host "[IP] 172.18.128.1 [Port] 0 [Flags] 2 [Guid] 1425155130 [EditorId] 1425155130 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3BAPAF0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 8.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.25f1 (530ae0ba3889)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Anhujuju/Plataformer/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   31.0.15.5186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012042 seconds.
+- Loaded All Assemblies, in  0.375 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.250 seconds
+Domain Reload Profiling: 623ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (94ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (154ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (251ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (197ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (136ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.590 seconds
+Refreshing native plugins compatible for Editor in 3.53 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.484 seconds
+Domain Reload Profiling: 1070ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (362ms)
+		LoadAssemblies (275ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (133ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (484ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (349ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (263ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3093 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3554.
+Memory consumption went from 121.7 MB to 121.6 MB.
+Total: 2.197700 ms (FindLiveObjects: 0.188200 ms CreateObjectMapping: 0.055500 ms MarkObjects: 1.868100 ms  DeleteObjects: 0.085000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 435502.080780 seconds.
+  path: Assets/Models/modular_terrain_collection/Escarpment_Terrain_Corner_Inner_2x2_Base.obj
+  artifactKey: Guid(d4a65871a049df342ace1234cfb76ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Escarpment_Terrain_Corner_Inner_2x2_Base.obj using Guid(d4a65871a049df342ace1234cfb76ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ef7f19317555e1468cc16eec67d965') in 0.138273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Bridge_Log_Middle.obj
+  artifactKey: Guid(e117f143a5fe11a4a85211aa5e1aaf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Bridge_Log_Middle.obj using Guid(e117f143a5fe11a4a85211aa5e1aaf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd542715f2b2425858b649e627e1edfc7') in 0.037762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/modular_terrain_collection/Escarpment_Terrain_Corner_Outer_2x2_Base.obj
+  artifactKey: Guid(4aded0e1fbaee254689f9198db8202e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Escarpment_Terrain_Corner_Outer_2x2_Base.obj using Guid(4aded0e1fbaee254689f9198db8202e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f40eaf724dbd89aea15798ded2b2cd7') in 0.020290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Bridge_Log_Middle_Edge.obj
+  artifactKey: Guid(a62cd86a2f55de6489d1e444c144f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Bridge_Log_Middle_Edge.obj using Guid(a62cd86a2f55de6489d1e444c144f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26b5fe1e5f8d4b08e474116969f658b') in 0.057269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/modular_terrain_collection/Escarpment_Terrain_Corner_Outer_3x3_Top.obj
+  artifactKey: Guid(b34f5a5f198aee24792275b46c94420f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Escarpment_Terrain_Corner_Outer_3x3_Top.obj using Guid(b34f5a5f198aee24792275b46c94420f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56870352c211335549df03b90d9a6fd1') in 0.030661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Branch_2.obj
+  artifactKey: Guid(07a5305671c7518489718f62b921400d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Branch_2.obj using Guid(07a5305671c7518489718f62b921400d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f806357b86baba2d110f431ec9a97f') in 0.023704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models/modular_terrain_collection/Escarpment_Terrain_Side_Falloff_Edge.obj
+  artifactKey: Guid(79d95a2fb7d140b4f81360e2a2dd6a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Escarpment_Terrain_Side_Falloff_Edge.obj using Guid(79d95a2fb7d140b4f81360e2a2dd6a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69345d89a6c4aa2da61db75f185032d') in 0.024897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.565697 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Bush_2.obj
+  artifactKey: Guid(899bf9ae4d64c1140b9fb4ad5d3be52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Bush_2.obj using Guid(899bf9ae4d64c1140b9fb4ad5d3be52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b51ac0357f3cc5c9c81261829fdf6e') in 0.020358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Fence_Boards_3.obj
+  artifactKey: Guid(7596c114a252dfa459c5af2e55339cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Fence_Boards_3.obj using Guid(7596c114a252dfa459c5af2e55339cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ada0c112d643d38c84bfa8e709a4248') in 0.024661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Fence_Post_2.obj
+  artifactKey: Guid(32c9ae53e9ee7714294cf1e832cc95e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Fence_Post_2.obj using Guid(32c9ae53e9ee7714294cf1e832cc95e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0feb1316dd962ecb34a9449ca7865d') in 0.021100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Camp_Campfire.obj
+  artifactKey: Guid(bc3000d7591bb8f48bca5d478a921c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Camp_Campfire.obj using Guid(bc3000d7591bb8f48bca5d478a921c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ab9f3257a5099f3b1e4ef7f843da80') in 0.066217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Cattail_2.obj
+  artifactKey: Guid(d7ac263fc4e20e74ab60d262a64eaa97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Cattail_2.obj using Guid(d7ac263fc4e20e74ab60d262a64eaa97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f34ea1e15486179baf61183e174f68f') in 0.036001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Flower_Rose.obj
+  artifactKey: Guid(c2483a887a066554990890cb354b15a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Flower_Rose.obj using Guid(c2483a887a066554990890cb354b15a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f61d5ddae7ea56fc175a3c868aac0c') in 0.057556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Fence_Boards_2.obj
+  artifactKey: Guid(71edd7e35241ca4468e7127df3ac6668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Fence_Boards_2.obj using Guid(71edd7e35241ca4468e7127df3ac6668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11035e530d9facd0e8168f22b9a26a96') in 0.025251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Grass_Clump_1.obj
+  artifactKey: Guid(6a8295d3e9f22404db4ad533b5f7e90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Grass_Clump_1.obj using Guid(6a8295d3e9f22404db4ad533b5f7e90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8289ec241d1100626f07e88d917e8e78') in 0.030514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Fence_Post_4.obj
+  artifactKey: Guid(4d17f636ee40c2644aa2f643241a1395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Fence_Post_4.obj using Guid(4d17f636ee40c2644aa2f643241a1395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f000319af9c460c6c5359fed0958aae7') in 0.018753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Flower_Daisy.obj
+  artifactKey: Guid(5ee8c605c91d08f4394776424686504a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Flower_Daisy.obj using Guid(5ee8c605c91d08f4394776424686504a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc40a19ecfe48acba8854ef63c592ca') in 0.110947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Fence_Boards_1.obj
+  artifactKey: Guid(0300abb86f4b4e548bc0556f3989d5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Fence_Boards_1.obj using Guid(0300abb86f4b4e548bc0556f3989d5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb7d6a687b6aee403b3798f6ab44dce') in 0.037707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Fence_Gate_1.obj
+  artifactKey: Guid(27cb6267a7196ec4fb03035762852d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Fence_Gate_1.obj using Guid(27cb6267a7196ec4fb03035762852d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d66733018db3de77e3b61e6c5ab5e9') in 0.069028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Ruins_Pillar_5.obj
+  artifactKey: Guid(13caa1ef3af249e41b29cafd4d851662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Ruins_Pillar_5.obj using Guid(13caa1ef3af249e41b29cafd4d851662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66d4a857003888ab9b35d9d7745fb92') in 0.034087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Ruins_Pillar_1.obj
+  artifactKey: Guid(968ca69cc30c8c54984262632b3061bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Ruins_Pillar_1.obj using Guid(968ca69cc30c8c54984262632b3061bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c054eb12254b35d2d3183729bd853ec') in 0.020261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Grass_Clump_4.obj
+  artifactKey: Guid(ecde99ee0cdb7bd4896aea318edb7236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Grass_Clump_4.obj using Guid(ecde99ee0cdb7bd4896aea318edb7236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95e0ade36f04f651f0b8cc2041b82da') in 0.045970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Mushroom_2.obj
+  artifactKey: Guid(fd7f4d05b8331a741a05c5fa2621dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Mushroom_2.obj using Guid(fd7f4d05b8331a741a05c5fa2621dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa443503ea597b2b4d6c5332cbe93ff5') in 0.029234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Ruins_Pillar_4.obj
+  artifactKey: Guid(9d057de89dffd98488dfe6baaa4809da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Ruins_Pillar_4.obj using Guid(9d057de89dffd98488dfe6baaa4809da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee45c87365d792851a1afabbd5bba56') in 0.026334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Rock_1.obj
+  artifactKey: Guid(63f756d234579af46bc760e42d2d83ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Rock_1.obj using Guid(63f756d234579af46bc760e42d2d83ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5303aa9c18e1b100b6ea7e39a303872f') in 0.021443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Hollow_Trunk.obj
+  artifactKey: Guid(4f5fec4bf86973a438d2065c289de4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Hollow_Trunk.obj using Guid(4f5fec4bf86973a438d2065c289de4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e572bdd46eee518489bc5dfc9c28bb7a') in 0.035436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Flower_Tulip.obj
+  artifactKey: Guid(cbe2b4f21d04ab24fbdd7770d5914751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Flower_Tulip.obj using Guid(cbe2b4f21d04ab24fbdd7770d5914751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8012db5ce3defbf0bcd26143d196e6d1') in 0.075879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Ruins_Pillar_3.obj
+  artifactKey: Guid(e57c88c9fe43aa2448a631b5b5149485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Ruins_Pillar_3.obj using Guid(e57c88c9fe43aa2448a631b5b5149485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f003f0decde7e9a634af34bbb8fb4f26') in 0.018819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Stepping_Stones_2.obj
+  artifactKey: Guid(4215a026bd29cd543906b4ab6921316d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Stepping_Stones_2.obj using Guid(4215a026bd29cd543906b4ab6921316d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ee1881d10350244a6b3ab4d42c90d0') in 0.018285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.135526 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Stepping_Stones_3.obj
+  artifactKey: Guid(a7ce50583515a88488716d9abe9e0520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Stepping_Stones_3.obj using Guid(a7ce50583515a88488716d9abe9e0520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208a45ae93c90e385a24051ef56cd641') in 0.017467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Stepping_Stones_7.obj
+  artifactKey: Guid(9d6706672c05c3c4e8a8c62d6b3f4162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Stepping_Stones_7.obj using Guid(9d6706672c05c3c4e8a8c62d6b3f4162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec04b5e0cea0a77bfa2c462e255b81b9') in 0.023422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Tree_Oak_1.obj
+  artifactKey: Guid(d78d7654878e9ac4ca27a82ec5b1297c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Tree_Oak_1.obj using Guid(d78d7654878e9ac4ca27a82ec5b1297c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80f1671d8a363c3c61a9ad29787f109') in 0.026644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Tree_Cedar_1.obj
+  artifactKey: Guid(1142012c951106c469c94d9f36fcc38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Tree_Cedar_1.obj using Guid(1142012c951106c469c94d9f36fcc38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793ebdc2eb3462836d5c47fd8d5a05d9') in 0.026889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Prop_Tree_Pine_1.obj
+  artifactKey: Guid(ce571f91324c8ec48b3b4129f088eca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Prop_Tree_Pine_1.obj using Guid(ce571f91324c8ec48b3b4129f088eca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a5ce6488865a276b1b835db69fd774') in 0.042442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.220296 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Terrain_Grass_Floor.obj
+  artifactKey: Guid(a2bac0f47f29a194a979118c6b7b8c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Terrain_Grass_Floor.obj using Guid(a2bac0f47f29a194a979118c6b7b8c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83feb997d6a318f7eb869a9d2fe56d9a') in 0.020032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Terrain_Hill_Transition_Gentle_Sharp_Flush_Base.obj
+  artifactKey: Guid(03738880fe773484d84f6f94f3ca9f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Terrain_Hill_Transition_Gentle_Sharp_Flush_Base.obj using Guid(03738880fe773484d84f6f94f3ca9f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d5a7b44308025c6b84b26fd98b9d12') in 0.020740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Terrain_Hill_Transition_Gentle_Sharp_Flush_Crest.obj
+  artifactKey: Guid(ecdb15b0212c49e4288d6f260c500b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Terrain_Hill_Transition_Gentle_Sharp_Flush_Crest.obj using Guid(ecdb15b0212c49e4288d6f260c500b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183b76ed61ea4c3433638500ce53833f') in 0.026131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Terrain_Hill_Side_Gentle.obj
+  artifactKey: Guid(5319a2c2e6c1ff444857f7d5f0c1b142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Terrain_Hill_Side_Gentle.obj using Guid(5319a2c2e6c1ff444857f7d5f0c1b142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb57115c4b8b63d15e84546c1dd2d20') in 0.026493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Terrain_Hill_Side_Shift_Gentle.obj
+  artifactKey: Guid(251102744245f8b4e88bc05e49555d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Terrain_Hill_Side_Shift_Gentle.obj using Guid(251102744245f8b4e88bc05e49555d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6650020c5485864004ec34b8cfb4b285') in 0.021060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Terrain_Hill_Corner_Outer_4x4.obj
+  artifactKey: Guid(9f78ff2f4e48dd04b8dcd80c4c0ad0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Terrain_Hill_Corner_Outer_4x4.obj using Guid(9f78ff2f4e48dd04b8dcd80c4c0ad0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e337ccef1a908804edb692500b653ff') in 0.020425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.341155 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Terrain_Path_Corner_Inner_1x1.obj
+  artifactKey: Guid(b673b428af0a9654d985470c00adbaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Terrain_Path_Corner_Inner_1x1.obj using Guid(b673b428af0a9654d985470c00adbaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24ea6aa3e598ace5e25de06f078aa14') in 0.020833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Terrain_Path_Hill_Sharp_Steps_Side.obj
+  artifactKey: Guid(2e753332fc086f844ac175f61daed1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Terrain_Path_Hill_Sharp_Steps_Side.obj using Guid(2e753332fc086f844ac175f61daed1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd3b298cbc41ecd38a2ec9645f933aa') in 0.026746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/modular_terrain_collection/Shared_Prop_Boulder_2.obj
+  artifactKey: Guid(81eeabbd78563024f9b166005a5b1016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Shared_Prop_Boulder_2.obj using Guid(81eeabbd78563024f9b166005a5b1016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a0f4a820d11e9d9b9099580b04c558') in 0.020168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/modular_terrain_collection/Mountain_4.obj
+  artifactKey: Guid(7826b3614b031d047b190f43965cd8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Mountain_4.obj using Guid(7826b3614b031d047b190f43965cd8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1107ffa0922da8721a378a247050ec39') in 0.018645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Terrain_Path_Hill_Sharp_Plain_Center.obj
+  artifactKey: Guid(b6a262732083e80498d075894438c49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Terrain_Path_Hill_Sharp_Plain_Center.obj using Guid(b6a262732083e80498d075894438c49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558905d6b3b52ef2b7f9d51c02d77511') in 0.016904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Terrain_Path_Corner_Outer_3x3.obj
+  artifactKey: Guid(9527e4c2b016fe94489780c3b1a16139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Terrain_Path_Corner_Outer_3x3.obj using Guid(9527e4c2b016fe94489780c3b1a16139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ac6a2df93aa9299fcc3f3ff69bb0ed') in 0.021426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Terrain_Path_Esse_2x3.obj
+  artifactKey: Guid(6d67223db10c0fa47992de8495bbbfe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Terrain_Path_Esse_2x3.obj using Guid(6d67223db10c0fa47992de8495bbbfe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5560512124068543f966d1655d37139b') in 0.019100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/modular_terrain_collection/Hilly_Terrain_Path_Side.obj
+  artifactKey: Guid(5ea3bfe163e73bb4a8286f90643d50c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Hilly_Terrain_Path_Side.obj using Guid(5ea3bfe163e73bb4a8286f90643d50c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38163bc02d22355434ec7119dbd5a1f6') in 0.021469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/modular_terrain_collection/Shared_Prop_Boulder_4.obj
+  artifactKey: Guid(7519b3d407497b44597489df1730baf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Shared_Prop_Boulder_4.obj using Guid(7519b3d407497b44597489df1730baf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea30ce93cf75b8ca7b870c698d0fab30') in 0.018443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/modular_terrain_collection/Shared_Prop_Boulder_3.obj
+  artifactKey: Guid(903c1ce89c8656d4b957dd405a5e3f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Shared_Prop_Boulder_3.obj using Guid(903c1ce89c8656d4b957dd405a5e3f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbc4fa95a29981983f7d56f166c8e54') in 0.019261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/modular_terrain_collection/Shared_Prop_Boulder_6.obj
+  artifactKey: Guid(7120473ccbbb4b54296f1a4ec8264461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modular_terrain_collection/Shared_Prop_Boulder_6.obj using Guid(7120473ccbbb4b54296f1a4ec8264461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71039696269539d5f462966b88d5c871') in 0.018652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.329159 seconds.
+  path: Assets/Models/Assets
+  artifactKey: Guid(aade5e79042a5c6479495db5053c5b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Assets using Guid(aade5e79042a5c6479495db5053c5b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86daeb72c67ae4275d1d89bebf7265e8') in 0.000524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 240.813910 seconds.
+  path: Assets/textures
+  artifactKey: Guid(30bedab08e43eb9409b7829e62defff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures using Guid(30bedab08e43eb9409b7829e62defff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba90d0a07c10fd81b8c77ba8698062b6') in 0.000424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.041490 seconds.
+  path: Assets/textures/forrest_ground_01_diff_4k.jpg
+  artifactKey: Guid(6625bd3f5b8c68e449f3dd481860b03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/forrest_ground_01_diff_4k.jpg using Guid(6625bd3f5b8c68e449f3dd481860b03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8b4409e3389c2973a7c9a83e234b92') in 0.034993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/textures/forrest_ground_01_nor_gl_4k.exr
+  artifactKey: Guid(5a20af6314a474641a184d7d9b5480fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/forrest_ground_01_nor_gl_4k.exr using Guid(5a20af6314a474641a184d7d9b5480fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bf602220aa85ab37fe78d32754676f') in 0.019004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 320.386477 seconds.
+  path: Assets/1601.m10.i311.n029.S.c10.164511620 Seamless green grass vector pattern.jpg
+  artifactKey: Guid(20e1d5df2dc4e5e418d9cc7483c1730b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1601.m10.i311.n029.S.c10.164511620 Seamless green grass vector pattern.jpg using Guid(20e1d5df2dc4e5e418d9cc7483c1730b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab47c8dbf0d6a3266ad70b38352a5a3') in 0.016627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 44.324779 seconds.
+  path: Assets/green-fake-grass-background.jpg
+  artifactKey: Guid(3fcb59fa082359b4f9ae8a49d9d29f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/green-fake-grass-background.jpg using Guid(3fcb59fa082359b4f9ae8a49d9d29f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d3fd434ef870058594c9183424c919') in 0.015911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 52.905550 seconds.
+  path: Assets/84835-OHG8A6-508.jpg
+  artifactKey: Guid(c1c99c8582ac45548b749dc33f8a39e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/84835-OHG8A6-508.jpg using Guid(c1c99c8582ac45548b749dc33f8a39e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a26a7d3b208854808dc95f8c96ab80') in 0.018106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.888540 seconds.
+  path: Assets/forrest_ground_01_4k.blend
+  artifactKey: Guid(9808e1619d030dc42813a92a50a86ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forrest_ground_01_4k.blend using Guid(9808e1619d030dc42813a92a50a86ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5d5b34c1058711e0f6866f3f780493') in 0.000905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.842238 seconds.
+  path: Assets/1601.m10.i311.n029.S.c10.164511620 Seamless green grass vector pattern.eps
+  artifactKey: Guid(85539a584d85eb54a940977ede9683b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1601.m10.i311.n029.S.c10.164511620 Seamless green grass vector pattern.eps using Guid(85539a584d85eb54a940977ede9683b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a4eb729dccb6aaad05ffd99450bed8') in 0.000844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 104.538403 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(610c4ed7ea8edf4478a487a7015f6fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(610c4ed7ea8edf4478a487a7015f6fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3321d0853bc0b70817764787088d5c') in 0.000506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.057533 seconds.
+  path: Assets/Materials/1601.m10.i311.n029.S.c10.164511620 Seamless green grass vector pattern.mat
+  artifactKey: Guid(6d98de080c4cc2849b0794b05e71e25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/1601.m10.i311.n029.S.c10.164511620 Seamless green grass vector pattern.mat using Guid(6d98de080c4cc2849b0794b05e71e25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedeb8b6fc8c50b6ce55d5d7297bf922') in 0.010829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/forrest_ground_01_diff_4k.mat
+  artifactKey: Guid(b167007e60466ba48a96138278f87c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/forrest_ground_01_diff_4k.mat using Guid(b167007e60466ba48a96138278f87c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71af4ab2cd69cd5231faf768f6d0a6b') in 0.013773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.556830 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(d8984f90a98613340a05eac4b8568c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(d8984f90a98613340a05eac4b8568c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fe39b97f2b06358d3fa4dc92ba9ad2') in 0.000648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.686531 seconds.
+  path: Assets/Materials 1
+  artifactKey: Guid(f12c67b43efad0c45a83af1d0c61527b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials 1 using Guid(f12c67b43efad0c45a83af1d0c61527b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5bcbbe0b8128737c083cd45734e067') in 0.000485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.066479 seconds.
+  path: Assets/Materials 1/BackColor.mat
+  artifactKey: Guid(7856d6190e1f6fb41bdf253412cc704f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials 1/BackColor.mat using Guid(7856d6190e1f6fb41bdf253412cc704f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793df6cb84383e4c24a74c417d4cc57c') in 0.013605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials 1/Boy01_UpperBody_MAT.mat
+  artifactKey: Guid(20b1e2c5218cea44cb0dd7d67b3cc68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials 1/Boy01_UpperBody_MAT.mat using Guid(20b1e2c5218cea44cb0dd7d67b3cc68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9899e1118827dc83e2da52ff8d3e980') in 0.014746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials 1/Mushroom_Red.mat
+  artifactKey: Guid(106cd00604f4a3f4c9f80d543186b1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials 1/Mushroom_Red.mat using Guid(106cd00604f4a3f4c9f80d543186b1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55d88f778b8fc5e074a24e27e1e65c7') in 0.013405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials 1/Leafs.mat
+  artifactKey: Guid(4579ef3c88d018245aadd8a923d58112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials 1/Leafs.mat using Guid(4579ef3c88d018245aadd8a923d58112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22db5da120a67db16d643fd6cfee182f') in 0.015768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials 1/Water.mat
+  artifactKey: Guid(3d0e7d54132636f4aaee7efd23ed8f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials 1/Water.mat using Guid(3d0e7d54132636f4aaee7efd23ed8f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44942ffe8cad571eac05b18a8395f54b') in 0.013405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials 1/Stone.mat
+  artifactKey: Guid(66eff941cc3c78f418cb64a3c8eaacb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials 1/Stone.mat using Guid(66eff941cc3c78f418cb64a3c8eaacb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0c29238e89843d7494f613dac3c1c4') in 0.012201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Materials 1/Flag.mat
+  artifactKey: Guid(a97474000feebee4492fa6417f90f61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials 1/Flag.mat using Guid(a97474000feebee4492fa6417f90f61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d60e057fd6bb68b386fc461b1abb11') in 0.112969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials 1/Wood.mat
+  artifactKey: Guid(4ce07ef0402cdad4f83eb94473afc47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials 1/Wood.mat using Guid(4ce07ef0402cdad4f83eb94473afc47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ed801f8e9ee51bd04cb2c70c930a1e') in 0.015043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials 1/Boy01_Hands_MAT.mat
+  artifactKey: Guid(b8680138af242e847bc559984019fd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials 1/Boy01_Hands_MAT.mat using Guid(b8680138af242e847bc559984019fd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdd454ec757e2c49c6c82a98e94cc2a') in 0.011029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.820574 seconds.
+  path: Assets/Materials 1/Skyboxes
+  artifactKey: Guid(c130f5e5b12752b41a3ca95f11a49efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials 1/Skyboxes using Guid(c130f5e5b12752b41a3ca95f11a49efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3c288338c04998bd9e9705bf01843d') in 0.000468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.045290 seconds.
+  path: Assets/Materials 1/Skyboxes/CloudyCrown_02_Evening
+  artifactKey: Guid(16d938f89ad8ac349a0d44a6124db315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials 1/Skyboxes/CloudyCrown_02_Evening using Guid(16d938f89ad8ac349a0d44a6124db315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c45e212d77006c9c6b48b48f058ae7d') in 0.000528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.051751 seconds.
+  path: Assets/Materials 1/Skyboxes/CloudyCrown_02_Evening/CloudyCrown_Evening.mat
+  artifactKey: Guid(77715b8b6b248994891d3ccad1ad330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials 1/Skyboxes/CloudyCrown_02_Evening/CloudyCrown_Evening.mat using Guid(77715b8b6b248994891d3ccad1ad330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61e1476fa31cbc7e0276e63b2349dc5') in 0.149117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 11.486285 seconds.
+  path: Assets/Models/Characters
+  artifactKey: Guid(ca281a0660781a640ac34d8481abca71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters using Guid(ca281a0660781a640ac34d8481abca71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901ce41e85c9677da5e58c1c26d57574') in 0.000541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.542072 seconds.
+  path: Assets/Models/assets 1
+  artifactKey: Guid(c324f40aab762e84ab821ff68b2d3737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/assets 1 using Guid(c324f40aab762e84ab821ff68b2d3737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ab944ed721448413146ec6d6f022ac') in 0.000409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.768294 seconds.
+  path: Assets/Models/characters 1
+  artifactKey: Guid(35160bc629a090c4682e331994114346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/characters 1 using Guid(35160bc629a090c4682e331994114346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f703b8ce52a4bead36548cbe2b95b177') in 0.000486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.040210 seconds.
+  path: Assets/Models/Characters/fbx
+  artifactKey: Guid(1c7a7cbbb6a0add4199603e4ad00e9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/fbx using Guid(1c7a7cbbb6a0add4199603e4ad00e9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2d99ea683ea2ca6723cc5a4333121a') in 0.000501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.197649 seconds.
+  path: Assets/Models/Characters/fbx/Barbarian.fbx
+  artifactKey: Guid(abdefa733d3c5024b930007552e4f136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/fbx/Barbarian.fbx using Guid(abdefa733d3c5024b930007552e4f136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b41bcc00a94bf91efbea7506bc4cc1') in 0.285148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 225
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Characters/fbx/knight_texture.png
+  artifactKey: Guid(5601c3da8deb1a14399af5b4a1be440d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/fbx/knight_texture.png using Guid(5601c3da8deb1a14399af5b4a1be440d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c808405cbb6c96fbf11c0774409b82') in 0.011580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Characters/fbx/Mage.fbx
+  artifactKey: Guid(de7e17c9868c60b4bae3f09a0fc5367c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/fbx/Mage.fbx using Guid(de7e17c9868c60b4bae3f09a0fc5367c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1fd9b922302ee98e0a0a4718188bb6') in 0.085732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 220
